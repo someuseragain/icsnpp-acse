@@ -5,7 +5,7 @@
 #unset_field	-
 #path	acse
 #open XXXX-XX-XX-XX-XX-XX
-#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	context_name	calling_ap_title	called_ap_title	auth_mechanism	result	aborted	diag
-#types	time	string	addr	port	addr	port	string	string	string	string	string	bool	string
-XXXXXXXXXX.XXXXXX	CHhAvVGS1DHFjwGM9	192.168.222.37	44210	192.168.222.129	102	1.0.9506.2.3	1.1.1.999	1.1.1.999.1	-	-	T	acse::ABRT_diagnostic_authentication_failure
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	context_name	calling_ap_title	called_ap_title	auth_mechanism	auth_failure	result	aborted	diag
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	bool	string
+XXXXXXXXXX.XXXXXX	CHhAvVGS1DHFjwGM9	192.168.222.37	44210	192.168.222.129	102	1.0.9506.2.3	1.1.1.999	1.1.1.999.1	-	T	-	T	acse::ABRT_diagnostic_authentication_failure
 #close XXXX-XX-XX-XX-XX-XX

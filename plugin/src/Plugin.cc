@@ -2,10 +2,7 @@
 #include "Plugin.h"
 #include "Analyzer.h"
 
-#include <iostream>
-
 #include <zeek/analyzer/Component.h>
-#include <zeek/analyzer/Manager.h>
 
 using namespace zeek;
 
@@ -38,7 +35,7 @@ zeek::plugin::Configuration Plugin::Configure()
             [](zeek::Connection *c) -> zeek::analyzer::Analyzer* {return new Analyzer(iso_name.c_str(), c);}
         )
     );
-    
+
 	return config;
 }
 

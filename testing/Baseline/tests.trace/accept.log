@@ -5,7 +5,7 @@
 #unset_field	-
 #path	acse
 #open XXXX-XX-XX-XX-XX-XX
-#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	context_name	calling_ap_title	called_ap_title	auth_mechanism	result	aborted	diag
-#types	time	string	addr	port	addr	port	string	string	string	string	string	bool	string
-XXXXXXXXXX.XXXXXX	CHhAvVGS1DHFjwGM9	127.0.0.1	58019	127.0.0.1	102	1.0.9506.2.3	1.1.999.1	1.1.999.1	-	accepted	F	-
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	context_name	calling_ap_title	called_ap_title	auth_mechanism	auth_failure	result	aborted	diag
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	bool	string
+XXXXXXXXXX.XXXXXX	CHhAvVGS1DHFjwGM9	127.0.0.1	58019	127.0.0.1	102	1.0.9506.2.3	1.1.999.1	1.1.999.1	-	F	accepted	F	-
 #close XXXX-XX-XX-XX-XX-XX
