@@ -42,7 +42,7 @@ foreach(file ${bif_files})
     zeek_plugin_bif(${file})
 endforeach ()
 
-zeek_plugin_dist_files(README.md CHANGES COPYING VERSION)
+zeek_plugin_dist_files("README.md" CHANGES COPYING VERSION)
 zeek_plugin_end()
 
 zeek_get_dynamic_plugin_target(target_name OSS ACSE)
